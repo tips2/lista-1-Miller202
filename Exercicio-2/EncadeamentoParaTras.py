@@ -3,7 +3,7 @@ Pizza_queijo = False
 Pizza_doisQueijos = False
 Cheddar = False
 Mussarela = False
-Pizza_quatroQueijos = False
+Pizza_tresQueijos = False
 
 def facts():
   global Queijo
@@ -13,7 +13,7 @@ if __name__ == "__main__":
   facts()
   lim = range(0, 10)
   for i in lim:
-    if(Queijo and Pizza_quatroQueijos):
+    if(Queijo and Pizza_tresQueijos):
       Cheddar = True 
 
     if(Queijo and Mussarela):
@@ -21,7 +21,7 @@ if __name__ == "__main__":
 
     if(Queijo):
       Mussarela = True
-      Pizza_quatroQueijos = True
+      Pizza_tresQueijos = True
 
     if(Pizza_queijo and Cheddar):
       Pizza_doisQueijos = True
