@@ -1,6 +1,7 @@
-R1: SE Pizza_queijo = Sim E Cheddar =  Sim ENTÃO Pizza_doisQueijos = Sim
+R1: SE Pizza_mussarela = Sim E Cheddar =  Sim ENTÃO Pizza_doisQueijos = Sim
 R2: SE Queijo = Sim ENTÃO Mussarela = Sim
-R3: SE Mussarela = Sim ENTÃO Pizza_queijo = Sim
-R4: SE Queijo = Sim ENTÃO Pizza_tresQueijos = Sim
-R5: SE Pizza_tresQueijos = Sim ENTÃO Cheddar = Sim
+R3: SE Mussarela = Sim ENTÃO Pizza_mussarela = Sim
+R4: SE Queijo = Sim ENTÃO Prato = Sim
+R5: SE Prato = Sim ENTÃO Pizza_tresQueijos = Sim
+R6: SE Pizza_tresQueijos = Sim ENTÃO Cheddar = Sim
 MT = { Queijo = Sim }
