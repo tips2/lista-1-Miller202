@@ -1,9 +1,9 @@
 Queijo = False
-Pizza_mussarela = False
-Pizza_doisQueijos = False
 Cheddar = False
 Mussarela = False
 Prato = False
+Pizza_mussarela = False
+Pizza_doisQueijos = False
 Pizza_tresQueijos = False
 
 def facts():
